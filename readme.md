@@ -1,18 +1,18 @@
 # 🍪 Cookies Modal
 
-###  Preferences
+###  ⚙️ Preferences
 - Necessary/Essential.
 - Preferences.
-- Analysis/Tracking.
+- Analytics/Tracking.
 - Advertising/Marketing.
 
-### Features
+### 🪚 Features
 - Not scroll
 - Preferences
 - Google Tag Manager
 - Facebook Píxel
 
-### References
+### 📎 References
 - https://policies.google.com/privacy
 - https://en.wikipedia.org/wiki/HTTP_cookie
 - https://support.google.com/chrome/answer/95647

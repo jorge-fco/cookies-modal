@@ -7,8 +7,13 @@
 	<!--TITLE-->
 	<title>Cookies</title>
 
+	<!--FONTS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 	<!--CSS-->
-	<link rel="stylesheet" href="assets/css/cookies.css?v=0.02">
+	<link rel="stylesheet" href="assets/css/cookies.css?v=0.03">
 </head>
 <body>
 	<!--MODAL-->
@@ -29,12 +34,61 @@
 					</a>
 				</p>
 
-				<div class="toogle__component">
-					<div class="toogle">
-						<input type="checkbox" name="" id="marketing">
-						<label for="marketing"></label>
+				<!--ITEM-->
+				<div class="toogle__item">
+					<div class="toogle__row">
+						<div class="toogle__text">
+							<p>Necessary</p>
+						</div>
+						<div class="toogle__component">
+							<input type="checkbox" name="essential" id="essential" checked disabled>
+							<label for="essential"></label>
+						</div>
 					</div>
 				</div>
+				<!--ITEM-->
+
+				<!--ITEM-->
+				<div class="toogle__item">
+					<div class="toogle__row">
+						<div class="toogle__text">
+							<p>Preferences</p>
+						</div>
+						<div class="toogle__component">
+							<input type="checkbox" name="preferences" id="preferences">
+							<label for="preferences"></label>
+						</div>
+					</div>
+				</div>
+				<!--ITEM-->
+
+				<!--ITEM-->
+				<div class="toogle__item">
+					<div class="toogle__row">
+						<div class="toogle__text">
+							<p>Analytics</p>
+						</div>
+						<div class="toogle__component">
+							<input type="checkbox" name="analytics" id="analytics">
+							<label for="analytics"></label>
+						</div>
+					</div>
+				</div>
+				<!--ITEM-->
+
+				<!--ITEM-->
+				<div class="toogle__item">
+					<div class="toogle__row">
+						<div class="toogle__text">
+							<p>Advertising</p>
+						</div>
+						<div class="toogle__component">
+							<input type="checkbox" name="advertising" id="advertising">
+							<label for="advertising"></label>
+						</div>
+					</div>
+				</div>
+				<!--ITEM-->
 			</div>
 			<!--BODY-->
 
@@ -42,9 +96,6 @@
 			<div class="modal__footer" role="footer">
 				<button type="button" class="button button-outline js-modal-close">
 					Close
-				</button>
-				<button type="button" class="button button-outline js-modal-preferences">
-					Preferences
 				</button>
 				<button type="button" class="button button-primary">
 					Accept All Cookies
@@ -60,9 +111,53 @@
 	</div>
 	<!--MODAL-->
 
+	<!--COOKIES-->
+	<div class="cookies__modal">
+		<div class="cookies__modal__container">
+			<div class="cookies__modal__row" role="row">
+				<div class="cookies__modal__information" role="column">
+					<h4>Title</h4>
+					<p>
+						This website is using cookies to analyze our traffic, personalize content and/or ads, to provide video content. We also share information about your use of our site with our analytics and advertising partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+						<a href="">
+							Privacy Policy
+						</a>
+					</p>
+				</div>
+				<div  class="cookies__modal__controls" role="column">
+					<button type="button" class="button button-outline js-modal-preferences">
+						Preferences
+					</button>
+					<button type="button" class="button button-primary">
+						Accept All Cookies
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--COOKIES-->
+
+	<main class="page">
+		<section class="page__section">
+			<div class="page__title">
+				<div class="page__container">
+					<h1>Cookies</h1>
+					<p>Description</p>
+				</div>
+			</div>
+
+			<article class="page__article">
+				<div class="page__container">
+					<h2>¿Pregunta?</h2>
+					<p>Respuesta</p>
+				</div>
+			</article>
+		</section>
+	</main>
+
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="assets/js/cookies.js?v=0.03"></script>
+	<script src="assets/js/cookies.js?v=0.04"></script>
 </body>
 </html>
 
