@@ -13,10 +13,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 	<!--CSS-->
-	<link rel="stylesheet" href="assets/css/cookies.css?v=0.03">
+	<link rel="stylesheet" href="assets/css/cookies.css?v=0.05">
 </head>
 <body>
-	<!--MODAL-->
+	<!--MODAL PREFERENCES-->
 	<div class="modal" role="modal">
 		<!--OVERLAY-->
 		<div class="modal__overlay"></div>
@@ -104,12 +104,8 @@
 			<!--FOOTER-->
 		</div>
 		<!--CONTAINER-->
-
-		<!--PREFERENCES-->
-		<div class=""></div>
-		<!--PREFERENCES-->
 	</div>
-	<!--MODAL-->
+	<!--MODAL PREFERENCES-->
 
 	<!--COOKIES-->
 	<div class="cookies__modal">
@@ -117,9 +113,11 @@
 			<div class="cookies__modal__row" role="row">
 				<div class="cookies__modal__information" role="column">
 					<h4>Title</h4>
+
 					<p>
 						This website is using cookies to analyze our traffic, personalize content and/or ads, to provide video content. We also share information about your use of our site with our analytics and advertising partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
-						<a href="">
+
+						<a href="" target="_blank">
 							Privacy Policy
 						</a>
 					</p>
@@ -128,7 +126,7 @@
 					<button type="button" class="button button-outline js-modal-preferences">
 						Preferences
 					</button>
-					<button type="button" class="button button-primary">
+					<button type="button" class="button button-primary js-button-cookie-accept-click" data-accept-click="true">
 						Accept All Cookies
 					</button>
 				</div>
@@ -155,9 +153,16 @@
 		</section>
 	</main>
 
+	<footer>
+		<div class="">
+			
+		</div>
+	</footer>
+
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="assets/js/cookies.js?v=0.04"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" crossorigin="anonymous"></script>
+	<script src="assets/js/cookies.js?v=0.07"></script>
 </body>
 </html>
 
