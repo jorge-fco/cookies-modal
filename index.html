@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!--TITLE-->
 	<title>Cookies</title>
@@ -13,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 	<!--CSS-->
-	<link rel="stylesheet" href="assets/css/cookies.css?v=0.05">
+	<link rel="stylesheet" href="assets/css/cookies.css?v=0.06">
 </head>
 <body>
 	<!--MODAL PREFERENCES-->
@@ -69,7 +70,7 @@
 							<p>Analytics</p>
 						</div>
 						<div class="toogle__component">
-							<input type="checkbox" name="analytics" id="analytics">
+							<input type="checkbox" name="analytics" id="analytics" value="true">
 							<label for="analytics"></label>
 						</div>
 					</div>
@@ -83,7 +84,7 @@
 							<p>Advertising</p>
 						</div>
 						<div class="toogle__component">
-							<input type="checkbox" name="advertising" id="advertising">
+							<input type="checkbox" name="advertising" id="advertising" value="true">
 							<label for="advertising"></label>
 						</div>
 					</div>
@@ -97,8 +98,8 @@
 				<button type="button" class="button button-outline js-modal-close">
 					Close
 				</button>
-				<button type="button" class="button button-primary">
-					Accept All Cookies
+				<button type="button" class="button button-primary  js-button-cookie-preferences-accept" data-accept-click="true">
+					Accept selected cookies
 				</button>
 			</div>
 			<!--FOOTER-->
@@ -162,7 +163,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" crossorigin="anonymous"></script>
-	<script src="assets/js/cookies.js?v=0.07"></script>
+	<script src="assets/js/cookies.js?v=1.01"></script>
 </body>
 </html>
 
