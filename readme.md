@@ -8,7 +8,8 @@
 
 ### 🪚 Features
 - Not scroll
-- Preferences
+- Close modal when the user presses ESC
+- Select Preferences
 - Google Tag Manager
 - Facebook Píxel
 
